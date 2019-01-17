@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" />
+        <title>CDH | Materialize</title>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- animate .css library -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" /> -->
+        <!-- master .css -->
+        <link rel="stylesheet" href="assets/css/master.css">
+
+    </head>
+
+    <body>
+        <!-- fixed nav bar -->
+        <div class="navbar-fixed">
+                <nav>
+                  <div class="nav-wrapper deep-purple lighten-3">
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger center"><i class="material-icons">menu</i></a>
+                    <ul class="hide-on-med-and-down flex">
+                      <li><a href="#info" class="waves-effect waves-light btn red lighten-2">Info <i class="material-icons left">menu</i> </a></li>
+                      <li><a href="#features" class="waves-effect waves-light btn red lighten-2">Feats</a></li>
+                      <li><a href="#more" class="waves-effect waves-light btn red lighten-2">More</a></li>
+                      <li><a href="#contact" class="waves-effect waves-light btn red lighten-2">Contact</a></li>
+                    </ul>
+                  </div>
+                </nav>
+                <!-- hidden nav for mobile view -->
+                
+        <ul class="sidenav" id="mobile-demo">
+                
+                <li><a href="#info">Info</a></li>
+                <li><a href="#features">Feats</a></li>
+                <li><a href="#more">More</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+              </div>
+
+        <!-- header -->
+        <header class="header">
+            <div class="container center deep-purple lighten-3">
+                <h2 class="white-text responsive">MaterializeCss</h2>
+                <!-- <br> -->
+                <i class="material-icons">opacity</i>
+                <br>
+                <p class="white-text flow-text">Designed By Google&copy;</p>
+            </div>
+        </header>
+        
+        <!-- about section -->
+        <section id="about">
+            <div class="container center">
+                <h3>About</h3>
+                <hr>
+                <p class="flow-text">Created and designed by Google, Material Design is a design language that
+                combines the classic principles of successful design along with innovation
+                and technology. Google's goal is to develop a system of design that allows
+                for a unified user experience across all their products on any platform.
+                </p>
+                <br><br>
+            </div>
+        <!-- about section ends here -->
+        </section>
+        
+
+        <!-- main heading + banner -->
+        <section id="banner">
+            <div class="container center">
+                <h2 class="white-text text-underline">Materialize  Showcase</h2>
+                <p class="white-text">Getting started with Materialize CSS.</p>
+            </div>
+        </section>
+
+        <!-- info section -->
+        <section id="info">
+            <div class="container center">
+                <h3>Info</h3>
+
+                <h5>Bold, graphic, intentional</h5>
+                <img class="responsive-img circle" src="assets/img/info-1.JPG" alt="material 1">
+                    <p id="info1" class="card-panel grey lighten-2">Elements and components such as grids, typography, color, and imagery are not only visually
+                    pleasing, but also create a sense of hierarchy, meaning, and focus. Emphasis on different actions and components create a
+                    visual guide for users.</p>
+                
+                <h5>Motion provides meaning</h5>
+                <img class="responsive-img circle" src="assets/img/info-2.JPG" alt="material 2">
+                    <p id="info2" class="card-panel grey lighten-2">Motion allows the user to draw a parallel between what they see on the screen and in real 
+                    life. By providing both feedback and familiarity, this allows the user to fully immerse him or herself into unfamiliar technology.
+                    Motion contains consistency and continuity in addition to giving users additional subconscious information about objects
+                    and transformations.</p>
+                
+                <h5>Material is the metaphor</h5>
+                <img class="responsive-img circle" src="assets/img/info-3.JPG" alt="material 3">
+                    <p id="info3" class="card-panel grey lighten-2">The metaphor of material defines the relationship between space and motion.
+                    The idea is that the technology is inspired by paper and ink and is utilized to facilitate creativity and innovation.
+                    Surfaces and edges provide familiar visual cues that allow users to quickly understand the technology beyond the physical world.</p>
+            
+            </div>
+        <!-- info section ends here -->
+        </section>
+        
+        <!-- info + img section -->
+        <section id="features">
+                <hr>
+            <div class="container center">
+                
+            <h3>Features</h3>
+
+            <h5>Carousels</h5>
+            <p class="card-panel grey lighten-2">Materialize Carousel is a robust and versatile component that can be an image slider,
+            to an item carousel, to an onboarding experience. It is touch enabled making it especially smooth to use on mobile.</p>
+            
+            <!-- materialize carousel -->
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="assets/img/carosel-1.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="assets/img/carosel-2.jpg"></a>
+                <a class="carousel-item" href="#three!"><img src="assets/img/carosel-3.jpg"></a>
+                <a class="carousel-item" href="#four!"><img src="assets/img/carosel-4.jpg"></a>
+                <a class="carousel-item" href="#five!"><img src="assets/img/carosel-5.jpg"></a>
+            </div>
+            <br><br>
+            <h5>Buttons</h5>
+            <p class="card-panel grey lighten-2">There are 3 main button types described in material design. The raised button is a standard button
+            that signify actions and seek to give depth to a mostly flat page. The floating circular action button is meant for very important
+            functions. Flat buttons are usually used within elements that already have depth like cards or modals.</p>
+            <br><br>
+            <!-- materialize buttons -->
+            <div class="container">
+                <div class="row" id="floatingBtns">
+
+                    <div class="col s12 lg4">
+                        <a class="btn-floating btn-small waves-effect waves-light blue lighten-3"><i class="material-icons">add</i></a>
+                        <a class="btn-floating btn-medium waves-effect waves-light blue pulse"><i class="material-icons">add</i></a>
+                        <a class="btn-floating btn-large waves-effect waves-light blue darken-4"><i class="material-icons">add</i></a>
+                    </div>
+                    
+                    <div class="col s12 lg4">
+                        <button class="btn btn-small yellow black-text">Sml</button>
+                        <button class="btn btn-meduim orange">Med</button>
+                        <button class="btn btn-large red">Lrg</button>
+                    </div>
+
+                    <div class="col s12 lg4">
+                        <a class="waves-effect waves-light btn-small green lighten-2">Button</a>
+                        <a class="waves-effect waves-light btn-small green"><i class="material-icons left">cloud</i>button</a>
+                        <a class="waves-effect waves-light btn-small green darken-3"><i class="material-icons right">cloud</i>button</a>
+                    </div>
+
+                    <div class="col s12 lg4">
+                        <a class="waves-effect waves-light btn-large pink lighten-2">Button</a>
+                        <a class="waves-effect waves-light btn-large pink darken-1"><i class="material-icons left">cloud</i>button</a>
+                        <a class="waves-effect waves-light btn-large purple darken-2"><i class="material-icons right">cloud</i>button</a>
+                    </div>
+
+                </div>
+            <!-- materialize buttons ends here -->
+            </div>
+
+            <br><br>
+            <div class="container center">
+            <h5>Preloaders</h5>
+            <p class="card-panel grey lighten-2">Preloaders are visual pleasing and animated elements to give the user a sense of what the application
+                is doing. Having a loading icon as opposed to a blank screen can keep a user engaged long enough for the content to load. Find out more 
+                at materializecss.com
+            </p>
+            <br><br>
+            <h6>Circular</h6>
+            <br><br>
+                <div class="row">
+            <!-- animated circles -->
+                <div class="col s4">
+                <div class="preloader-wrapper big active">
+                <div class="spinner-layer spinner-blue-only">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- div .col s4 ends here -->
+            </div>
+
+            <div class="col s4">
+
+                <div class="preloader-wrapper active">
+                    <div class="spinner-layer spinner-red-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="gap-patch">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            <!-- div .col s4 ends here -->
+            </div>
+
+            <div class="col s4">
+                
+                <div class="preloader-wrapper small active">
+                    <div class="spinner-layer spinner-green-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="gap-patch">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            <!-- div .col s4 ends here -->
+            </div>
+            <br><br>
+            <!-- row ends here -->
+            </div>
+            
+            <h6>Linear</h6>
+            <br><br>
+
+            <div class="row">
+                <div class="col s12">
+                    <!-- non animated + animated preloaders -->
+                    <div class="progress">
+                        <div class="determinate" style="width: 50%"></div>
+                    </div>
+                    <br><br>
+                    <div class="progress">
+                        <div class="indeterminate"></div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        </div>
+
+            </div>
+        <!-- features section ends here -->
+        </section>
+
+       
+        <!-- more section -->
+        <section id="more">
+            <hr>
+            <div class="container center">
+                <h3>More</h3>
+                
+                <p class="card-panel grey lighten-2">Materialize By Google, is a well thought-out, maintained and aesthetically pleasing
+                    frontend framwork for developing from prototypes to mock-ups to live production websites and everything in between. Find the
+                    link at the bottom to start using MaterializeCss today!
+                </p>
+
+                <!-- hoverable card panels + images -->
+            <div class="card-panel hoverable">
+                    <img class="responsive-img" src="assets/img/img-1.jpg" alt="color">
+                    <br><br>
+                    <q>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, repellendus.</q>
+                    <p><b>Color Palette</b></p>
+                </div>
+                    
+                <br>
+
+                <div class="card-panel hoverable">
+                    <img class="responsive-img" src="assets/img/img-2.jpg" alt="icons">
+                    <br><br>
+                    <q>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, repellendus.</q>
+                    <p><b>Icons</b></p>    
+                </div>
+                
+                
+                <div class="card-panel hoverable">
+                    <img class="responsive-img" src="assets/img/img-3.jpg" alt="mobile">
+                    <br><br>
+                    <q>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, repellendus.</q>
+                    <p><b>Mobile</b></p>
+                </div>
+                
+
+                <br>
+
+                <button class="btn btn-lr black text-white pulse"><a href="https://materializecss.com/"> More</a></button>
+            </div>
+        <!-- more section ends here -->
+        </section>
+
+        <!-- contact section -->
+        <section id="contact">
+            <hr>
+            <div class="container center">
+                <h3>Contact</h3>
+                <!-- contact form -->
+            <div class="row">
+
+                <div class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">group</i>
+                            <input type="text" id="autocomplete-input" class="autocomplete">
+                            <label for="autocomplete-input">Name :</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">mail</i>
+                            <input type="text" id="autocomplete-input" class="autocomplete">
+                            <label for="autocomplete-input">Email :</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">view_comfy</i>
+                            <input type="text" class="datepicker">
+                            <label for="autocomplete-input">Birthdate :</label>
+                        </div>
+                    </div>
+                </div>
+                    
+                <button id="submitBtn" class="btn btn-large waves-effect waves-light black" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                      </button>
+                    
+            <!-- form row ends here -->
+            </div>
+            <!-- div .container ends here -->
+            </div>
+        <!-- contact section ends here -->
+        </section>
+
+        <!-- side pulsing action menu [bottom-right] -->
+        <div class="container">
+                <div class="fixed-action-btn">
+                        <a class="btn-floating btn-large deep-purple lighten-3 pulse">
+                            <i class="large material-icons">mode_edit</i>
+                        </a>
+                        <ul>
+                            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+                        </ul>
+                        </div>
+        </div>
+
+
+        <!-- footer section -->
+        <footer class="footer">
+            <div class="container center deep-purple lighten-3">
+                <h5 class="white-text">Developed By C D Harris</h5>
+                <h6 class="white-text">Created With MaterializeCss Framework & Scroll Reveal JS Library</h6>
+            </div>
+        </footer>
+    <!-- scroll reveal lib -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ext master js file -->
+    <script src="assets/js/index.js"></script>
+    <!-- ext animation js file -->
+    <script src="assets/js/animate.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+    </body>
+  </html>

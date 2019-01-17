@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    scroll-behavior: smooth;
+    padding: 10px;
+    
+}
+section {
+    padding-top: 50px;
+}
+#floatingBtns button,
+#floatingBtns a {
+    margin: 20px 20px auto;
+    
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+/* hidden mobile menu */
+.sidenav {
+    background-color: #666;
+    height: 200px;
+    width: 100%;
+    letter-spacing: 3px;
+    overflow: hidden;
+    margin: auto;
+}
+.sidenav li a {
+    color: #fff;
+    font-size: 1.1m;
+    text-align: center;
+}
+.header i {
+    color: #fff;
+    font-size: 40px;
+}
+/* banner section background */
+#banner {
+    background: url('../img/banner.jpg');
+    /* background-attachment: fixed; */
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 15vh; */
+    /* margin: auto; */
+}
+img {
+    max-height: 300px;
+}
